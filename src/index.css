@@ -1,13 +1,163 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.icon {
+  height: 100%;
+  width: 100px;
+  object-fit: contain;
+}
+.button{
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid red;
+  color: red;
+  border-radius: 25px;
+  background-color: #FFFFFF;
+}
+.yourscore{
+  font-size: 1rem;
+  font-weight: 200;
+  margin: 0;
+}
+.container-card {
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 500px;
+  height:450px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.header-part {
+  display: flex;
+  align-items: start;
+}
+.line {
+  margin-top: 1rem;
+  border: 1px solid lightgrey;
+  width: 100%;
+}
+.header-faculty {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin-left: 1rem;
+}
+.contianer-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin-bottom: 16px;
+}
+.header-name {
+  color: red;
+  margin: 0;
+  font-size: 1.5rem;
+}
+.score{
+  font-size: 3rem;
+  font-weight: 400;
+  margin: 0;
+}
+.header-subname {
+  color: grey;
+  margin: 0;
+  font-size: 1rem;
+}
+.header-uni {
+  color: grey;
+  font-weight: 100;
+  margin: 0;
+  font-size: 1.5rem;
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: lightgray;
+  line-height: 40px;
+  text-align: center;
+}
+.circle-green{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: springgreen;
+  line-height: 40px;
+  text-align: center;
+}
+.container-roundseat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle-text {
+  color: white;
+  font-size: 1rem;
+}
+.text-roundseat {
+  font-weight: 100;
+  font-size: 1rem;
+  width: 100%;
+  color: gray;
+}
+.text-admission{
+  font-size: 1rem;
+  color: red;
+}
+.container-admission{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.container-circle {
+  display: flex;
+  width: 100%;
+  gap: 8px;
+  margin-left: 1rem;
+}
+.conatiner-score{
+  display: flex;
+  margin-top: 1rem;
+  width: 100%;
+  justify-content: space-around;
+}
+.container-text-score{
+  display: flex;
+  flex-direction: column;
+}
+.container-yourscore{
+  margin-top: 1rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-score{
+  font-size:1rem;
+  font-weight: 200;
+  margin: 0;
+}
+.text-score-bold{
+  font-size:2rem;
+  font-weight: 400;
+  margin: 0;
+}
+.vertical-line{
+  border-left: 1px solid lightgrey;
+  height: 100%;
+}
+
